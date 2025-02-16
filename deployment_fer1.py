@@ -10,7 +10,7 @@ from sklearn.metrics import mean_absolute_error, r2_score
 import joblib
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-import json
+import csv
 
 df = pd.read_csv("crop_yield_data.csv")
 
